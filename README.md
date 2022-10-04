@@ -1,15 +1,11 @@
 
 # My Personal Portfolio
-This is the source code to my personal page on the internet. You can give it a look at the link below!
+Persona Portfolio!
 
 ## View Site
-Check it out: https://aniketkotal.me/
+Check it out: https://franciscofl.dev/
 
 ## Technologies Used
 - Vue.js
 - Tailwind CSS
-
-## Screenshot
-
-![Hero](https://github.com/mightykillrr/portfolio-update/blob/main/src/assets/preview.png?raw=true)
 
