@@ -22,7 +22,6 @@ export const useProjectStore = defineStore("projectStore", {
           "Colossion Team website, design and production.",
         techs: ["Bootstrap","Javascript"],
         link: "https://colossion.com/",
-        latest: true,
       },
       {
         id: 3,
@@ -32,6 +31,16 @@ export const useProjectStore = defineStore("projectStore", {
           "Lupone Enteprise Website APP, Course Manager, Financial Manager...",
         techs: ["Laravel", "TailwindCSS", "JQuery", "MySQL","Javascript"],
         link: "https://www.luponenterprise.com/",
+        latest: true,
+      },
+      {
+        id: 3,
+        name: "Chain Capitals",
+        image: new URL("../assets/featured/chaincapitals.png", import.meta.url).href,
+        description:
+          "Chain Capitals Website APP, Financial Project Manager, Mailing System",
+        techs: ["Laravel", "Bootstrap", "JQuery", "MySQL", "Javascript"],
+        link: "https://www.chaincapitals.com/",
         latest: true,
       },
     ]
