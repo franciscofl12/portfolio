@@ -34,7 +34,7 @@ export const useProjectStore = defineStore("projectStore", {
         latest: true,
       },
       {
-        id: 3,
+        id: 4,
         name: "Chain Capitals",
         image: new URL("../assets/featured/chaincapitals.png", import.meta.url).href,
         description:
