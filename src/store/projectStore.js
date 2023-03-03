@@ -31,7 +31,7 @@ export const useProjectStore = defineStore("projectStore", {
           "Lupone Enteprise Website APP, Course Manager, Financial Manager...",
         techs: ["Laravel", "TailwindCSS", "JQuery", "MySQL","Javascript"],
         link: "https://www.luponenterprise.com/",
-        latest: true,
+        latest: false,
       },
       {
         id: 4,
@@ -41,6 +41,16 @@ export const useProjectStore = defineStore("projectStore", {
           "Chain Capitals Website APP, Financial Project Manager, Mailing System",
         techs: ["Laravel", "Bootstrap", "JQuery", "MySQL", "Javascript"],
         link: "https://www.chaincapitals.com/",
+        latest: true,
+      },
+      {
+        id: 5,
+        name: "MIV Gaming",
+        image: new URL("../assets/featured/mivgaming.gif", import.meta.url).href,
+        description:
+          "eSports Club, Giveaways, Team & Players System",
+        techs: ["Laravel", "Tailwind", "Vite", "MySQL", "Javascript"],
+        link: "https://www.mivgaming.com/",
         latest: true,
       },
     ]
