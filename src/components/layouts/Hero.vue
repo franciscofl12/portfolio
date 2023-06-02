@@ -16,8 +16,7 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose text-gray-800 dark:text-gray-400"
     >
-      I'm currently working for
-      <LinkBtn link="https://www.trevenque.es/">GrupoTrevenque</LinkBtn> , my own project <LinkBtn link="https://colossion.com/">Colossion Team</LinkBtn> and my eSports Club <LinkBtn link="https://mivgaming.com/">MIV Gaming</LinkBtn> .
+      I'm currently working for my own project <LinkBtn link="https://colossion.com/">Colossion Team</LinkBtn> and my eSports Club <LinkBtn link="https://mivgaming.com/">MIV Gaming</LinkBtn> .
     </p>
   </div>
 </template>

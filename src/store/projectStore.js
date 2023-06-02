@@ -15,11 +15,11 @@ export const useProjectStore = defineStore("projectStore", {
       },
       {
         id: 2,
-        name: "Colossion Team",
+        name: "Old Colossion Team",
         image: new URL("../assets/featured/colossion.png", import.meta.url)
           .href,
         description:
-          "Colossion Team website, design and production.",
+          "Old Colossion Team website, design and production.",
         techs: ["Bootstrap","Javascript"],
         link: "https://colossion.com/",
       },
@@ -41,7 +41,7 @@ export const useProjectStore = defineStore("projectStore", {
           "Chain Capitals Website APP, Financial Project Manager, Mailing System",
         techs: ["Laravel", "Bootstrap", "JQuery", "MySQL", "Javascript"],
         link: "https://www.chaincapitals.com/",
-        latest: true,
+        latest: false,
       },
       {
         id: 5,
@@ -51,6 +51,26 @@ export const useProjectStore = defineStore("projectStore", {
           "eSports Club, Giveaways, Team & Players System",
         techs: ["Laravel", "Tailwind", "Vite", "MySQL", "Javascript"],
         link: "https://www.mivgaming.com/",
+        latest: false,
+      },
+      {
+        id: 6,
+        name: "Colossion Team",
+        image: new URL("../assets/featured/colossionteam.png", import.meta.url).href,
+        description:
+          "Colossion Team website, design and production",
+        techs: ["Vue", "Tailwind", "Vite", "CSS", "Javascript"],
+        link: "https://www.colossionteam.com/",
+        latest: true,
+      },
+      {
+        id: 7,
+        name: "React Ecommerce Landing",
+        image: new URL("../assets/featured/react-ecommerce.jpg", import.meta.url).href,
+        description:
+          "Simple React Ecommerce Landing with request of API to get all the products.",
+        techs: ["React", "REST Api", "Vite", "CSS", "Javascript", "API"],
+        link: "https://host.franciscofl.dev/preview/ecommerce-landing.com/",
         latest: true,
       },
     ]
