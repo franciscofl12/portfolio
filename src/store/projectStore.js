@@ -60,7 +60,7 @@ export const useProjectStore = defineStore("projectStore", {
         description:
           "Colossion Team website, design and production",
         techs: ["Vue", "Tailwind", "Vite", "CSS", "Javascript"],
-        link: "https://www.colossionteam.com/",
+        link: "https://www.colossion.com/",
         latest: true,
       },
       {
