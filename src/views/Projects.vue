@@ -33,9 +33,9 @@ export default {
   components: { MainProjectItem },
   setup() {
     const projectStore = useProjectStore();
-    const projects = projectStore.getAllProjects;
+    const projects = projectStore.getProjectsByLatestId;
 
     return { projects };
-  },
+}
 };
 </script>

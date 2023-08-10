@@ -77,7 +77,7 @@ export const useProjectStore = defineStore("projectStore", {
   }),
   getters: {
     getAllProjects: (state) => state.projects,
-    getLatestProjects: (state) =>
-      state.projects.filter((project) => project.latest),
-  },
+    getLatestProjects: (state) => state.projects.filter((project) => project.latest),
+    getProjectsByLatestId: (state) => [...state.projects].sort((a, b) => b.id - a.id)
+  }
 });
