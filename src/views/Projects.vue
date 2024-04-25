@@ -4,10 +4,10 @@
       <h1
         class="text-2xl sm:text-3xl md:text-4xl slg:text-5xl font-theme_bold text-black dark:text-head_text"
       >
-        Projects<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">.</span>
+      {{$t('projectsPage.title')}}<span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">.</span>
       </h1>
       <p class="text-base slg:text-lg text-gray-800 dark:text-gray-400">
-        Here are some public work I have worked on in the last years.
+        {{$t('projectsPage.subtitle')}}
       </p>
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />

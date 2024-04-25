@@ -1,5 +1,4 @@
 <template>
-  <div class="dark:text-p_text text-gray-800">You can reach me on my social media:</div>
   <div class="flex justify-between items-center">
     <div class="flex gap-1">
       <SocialIcon
@@ -17,17 +16,25 @@
         link="https://www.instagram.com/franciscofl12/"
         icon="ant-design:instagram-outlined"
       />
+      <SocialIcon
+        title="Discord"
+        link="https://discordapp.com/users/236855046237716493"
+        icon="ant-design:discord-outlined"
+      />
+      <SocialIcon
+        title="Email"
+        link="mailto:franciscofl2002@gmail.com"
+        icon="ant-design:mail-outlined"
+      />
     </div>
-    <TooltipButton>Discord: Xisko#0001</TooltipButton>
   </div>
 </template>
 
 <script>
 import SocialIcon from "../ui/SocialIcon.vue";
-import ActionButton from "../ui/ActionButton.vue";
 import TooltipButton from "../ui/TooltipButton.vue";
 
 export default {
-  components: { SocialIcon, ActionButton, TooltipButton },
+  components: { SocialIcon, TooltipButton },
 };
 </script>

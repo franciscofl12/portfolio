@@ -61,7 +61,7 @@ export const useProjectStore = defineStore("projectStore", {
           "Colossion Team website, design and production",
         techs: ["Vue", "Tailwind", "Vite", "CSS", "Javascript"],
         link: "https://www.colossion.com/",
-        latest: true,
+        latest: false,
       },
       {
         id: 7,
@@ -71,6 +71,36 @@ export const useProjectStore = defineStore("projectStore", {
           "Simple React Ecommerce Landing with request of API to get all the products.",
         techs: ["React", "REST Api", "Vite", "CSS", "Javascript", "API"],
         link: "https://host.franciscofl.dev/preview/ecommerce-landing.com/",
+        latest: false,
+      },
+      {
+        id: 8,
+        name: "Private eBay Inventory APP",
+        image: new URL("../assets/featured/quickauto.png", import.meta.url).href,
+        description:
+          "eBay Private App for directly post products in different marketplaces with translations.",
+        techs: ["Laravel", "REST Api", "eBay API", "API"],
+        link: "https://quickauto24.com/",
+        latest: false,
+      },
+      {
+        id: 9,
+        name: "Florier Ecommerce",
+        image: new URL("../assets/featured/florier.jpg", import.meta.url).href,
+        description:
+          "Shopify Ecommerce with modifications on the base template and multiple apps configuration and optimization.",
+        techs: ["Shopify", "Apps", "Ecommerce", "SEO", "Liquid"],
+        link: "https://florier.com/",
+        latest: true,
+      },
+      {
+        id: 10,
+        name: "Og's Ecommerce",
+        image: new URL("../assets/featured/ogs.jpg", import.meta.url).href,
+        description:
+          "Shopify Ecommerce with modifications, optimizations and custom pages, custom applications and multiple apps configuration and optimization.",
+          techs: ["Shopify", "Apps", "Ecommerce", "SEO", "Liquid"],
+        link: "https://www.ogsbrand.com/",
         latest: true,
       },
     ]

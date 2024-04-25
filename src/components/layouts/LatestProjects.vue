@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-2 lg:gap-4">
-    <h3 class="font-theme_bold text-2xl text-black dark:text-head_text">Latest Projects</h3>
-    <p class="text-gray-800 dark:text-gray-400">The lastest projects I worked on.</p>
+    <h3 class="font-theme_bold text-2xl text-black dark:text-head_text">{{ $t('projectsPage.title') }}</h3>
+    <p class="text-gray-800 dark:text-gray-400">{{ $t('projectsPage.subtitle') }}</p>
     <div
       class="grid grid-cols-1 slg:grid-cols-2 gap-7 sm:gap-6 pt-8 mx-auto sm:w-5/6 break-all slg:w-full"
     >
